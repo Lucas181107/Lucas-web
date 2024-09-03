@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas & Sally Hotel - Đặt Phòng</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Lucas & Sally Hotel" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="rooms.html">Rooms </a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="booking.html">Đặt Phòng</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="booking">
+        <h2>Đặt Phòng</h2>
+        <form id="bookingForm">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="roomType">Loại phòng:</label>
+            <select id="roomType" name="roomType" required>
+                <option value="single">Phòng Đơn</option>
+                <option value="double">Phòng Đôi</option>
+                <option value="family">Phòng Gia Đình</option>
+            </select>
+
+            <label for="checkin">Ngày nhận phòng:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Ngày trả phòng:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <button type="submit">Đặt Phòng</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lucas & Sally Hotel. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
