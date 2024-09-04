@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #000000dc;
-    color: #1072c8;
+    color: #ebf3ee;
     /*comment*/
 }
 header {
@@ -40,8 +40,7 @@ nav ul li a {
 }
 
 #hero {
-    background: url('../images/ưhero.jpg') no-repeat center center/cover;
-    color: #fff;
+    background: url()
     padding: 100px 0;
     text-align: center;
 }

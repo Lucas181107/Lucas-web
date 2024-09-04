@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (bookingForm) {
         bookingForm.addEventListener('submit', function(event) {
             event.preventDefault();
-            alert('Cảm ơn bạn đã đặt phòng! Chúng tôi sẽ liên hệ với bạn sớm.');
+            alert('Thank you for your booking! We will contact you soon.');
         });
     }
 });
